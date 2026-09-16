@@ -1,4 +1,4 @@
-# Maryland Mortgage Denial Gaps (HMDA)
+# MD Mortgage Denial Gaps (HMDA) using data science socially
 
 Black and Hispanic applicants get denied for mortgages more often than White applicants. What I wanted to find out is how much of that gap is left once you account for the things lenders actually look at, like income and debt.
 
