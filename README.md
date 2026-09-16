@@ -2,17 +2,17 @@
 
 Black and Hispanic applicants get denied for mortgages more often than White applicants. What I wanted to find out is how much of that gap is left once you account for the things lenders actually look at, like income and debt.
 
-I built this as a personal project to get hands-on experience with a large public dataset and regression analysis. It uses Maryland home-purchase mortgage applications from the CFPB's HMDA data.
+I built this as a project to get experience with a large public dataset and regression analysis. It uses Maryland home-purchase mortgage applications from the CFPB's HMDA data.
 
 **Status:** code is done, results coming soon.
 
 ## Data
 
-The script pulls loan-level data straight from the [CFPB's HMDA Data Browser API](https://ffiec.cfpb.gov/documentation/api/data-browser/), so you don't have to download anything by hand.
+The script pulls loan level data straight from the [CFPB's HMDA Data Browser API](https://ffiec.cfpb.gov/documentation/api/data-browser/), so you don't have to download anything by hand.
 
 I kept owner-occupied, first-lien, home-purchase applications where the lender made a decision (approved or denied). I dropped business loans, reverse mortgages, and home equity lines of credit since they work differently.
 
-I compare four groups: White, Black, Asian, and Hispanic applicants.
+I compare four groups: white, black, asian, and hispanic applicants.
 
 ## What the script does
 
